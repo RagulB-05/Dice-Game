@@ -127,7 +127,7 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 8rem;
 }
 .btn--roll {
   top: 39.3rem;
@@ -165,4 +165,30 @@ main {
 
 .hidden {
   display: none;
+}
+
+.message {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #c7365f;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: all 0.2s;
+
+  background-color: #2f2f2f;
+  background-color: #2f2f2f;
+  backdrop-filter: blur(10px);
+
+  padding: 15px 25px;
+  border-radius: 500px;
+  /* box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1); */
+  top: 25rem;
+  width: 30%;
+  height: 10%;
+  text-align: center;
 }
